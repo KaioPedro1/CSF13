@@ -1,2 +1,2 @@
 # CSF13
- Resolução de exercicios da faculdade
+ Resolução de exercícios da faculdade
