@@ -1,0 +1,1 @@
+Como não sei alocar dinamicamente, o tamanho das matrizes são pré-definidas.
