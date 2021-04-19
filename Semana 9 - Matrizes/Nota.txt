@@ -1,1 +1,1 @@
-Como não sei alocar dinamicamente, o tamanho das matrizes são pré-definidas.
+Como não sei alocar dinamicamente o tamanho das matrizes são pré-definidas.
