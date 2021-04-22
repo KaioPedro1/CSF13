@@ -9,15 +9,15 @@ mostrar o “novo” vetor na tela*/
 #define N 10
 void removePosition(int input[], int size);
 int main(){
-    int string[N],i, remove;
+    int array[N],i, remove;
     srand(time(NULL));
     for(i=0; i<N; i++){
-        string[i]=rand()%100;
-            printf("%d\n", string[i]);
+        array[i]=rand()%100;
+            printf("%d\n", array[i]);
     }
         printf("Informe a posicao que deseja remover de 0 a N: ");
         scanf("%d", &remove);
-        removePosition(string, remove);     //esqueci de verificar se numero maior que 10 ou menor que 0 
+        removePosition(array, remove);     //esqueci de verificar se numero maior que 10 ou menor que 0 
 }    
 
 void removePosition(int input[], int remove){

@@ -3,14 +3,14 @@ Caso o usu´ario tente inserir um valor j´a existente, o programa deve alertar 
 #include <stdio.h>
 #define size 5
 int main(){
-    int checkString[size], i,j, flag;  
+    int checkArray[size], i,j, flag;  
     for (i=0; i<size; i++){
-        scanf("%d", &checkString[i]);
+        scanf("%d", &checkArray[i]);
             for(j=i-1; j>=0; j--){
-                while(checkString[i]==checkString[j]){
+                while(checkArray[i]==checkArray[j]){
                     flag=1;
                     printf("Numero duplicado, informe um novo valor: ");
-                    scanf("%d", &checkString[i]);
+                    scanf("%d", &checkArray[i]);
                 }
                 if(flag==1){
                     j=i;
@@ -19,6 +19,6 @@ int main(){
     }
 }
 for(i=0;i<size;i++){
-    printf("%d", checkString[i]);
+    printf("%d", checkArray[i]);
 }
 }

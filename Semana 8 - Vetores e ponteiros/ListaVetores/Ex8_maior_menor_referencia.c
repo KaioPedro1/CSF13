@@ -6,16 +6,16 @@ do vetor.
 #include <time.h>
 
 void preencheVetor(int v[],int n, int limite);
-int averagePair(int string[], int n, int *b,int *s);
+int averagePair(int array[], int n, int *b,int *s);
 
 int main(){
-    int string [100];
+    int array [100];
     int number, limit, bigger=0,smaler;
     printf("Informe o numero de elementos do vetor e o limite(separados por espaco): ");
     scanf("%d" "%d", &number, &limit);
     smaler=limit;
-    preencheVetor(string, number, limit);
-    averagePair(string, number, &bigger, &smaler);
+    preencheVetor(array, number, limit);
+    averagePair(array, number, &bigger, &smaler);
     printf("\t\tMaior numero eh: %d\n\t\t\t e menor eh :%d\n", bigger, smaler);
 }
 
@@ -27,18 +27,18 @@ void preencheVetor(int v[],int n, int limite){
            printf("Vetor: %d\n", v[i]);          
     }
 }
-int averagePair(int string[], int n, int *b,int *s){
+int averagePair(int array[], int n, int *b,int *s){
     int i, numerator=0, denominator=0;
     float average;
     for(i=0; i<n;i++){
-        if(string[i]%2==0&&string[i]!=0){
-            numerator=numerator+string[i];
+        if(array[i]%2==0&&array[i]!=0){
+            numerator=numerator+array[i];
             denominator++;
         }
-        if(string[i]>*b)
-            *b=string[i];
-            else if (string[i]<*s)
-                *s=string[i];
+        if(array[i]>*b)
+            *b=array[i];
+            else if (array[i]<*s)
+                *s=array[i];
     }
         if(denominator==0)
             printf("\t\t\tVetor não possui números pares.");

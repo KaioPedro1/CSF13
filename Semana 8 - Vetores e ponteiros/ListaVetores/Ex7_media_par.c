@@ -5,7 +5,7 @@
 #include <time.h>
 
 void preencheVetor(int v[],int n, int limite);
-int averagePair(int string[], int n);
+int averagePair(int array[], int n);
 
 int main(){
     int string [100];
@@ -24,12 +24,12 @@ void preencheVetor(int v[],int n, int limite){
            printf("Vetor: %d\n", v[i]);          
     }
 }
-int averagePair(int string[], int n){
+int averagePair(int array[], int n){
     int i, numerator=0, denominator=0;
     float average;
     for(i=0; i<n;i++){
-        if(string[i]%2==0&&string[i]!=0){
-            numerator=numerator+string[i];
+        if(array[i]%2==0&&array[i]!=0){
+            numerator=numerator+array[i];
             denominator++;
         } 
         }
