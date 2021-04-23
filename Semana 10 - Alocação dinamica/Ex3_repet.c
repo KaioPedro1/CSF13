@@ -15,7 +15,7 @@ int main(){
     printf("\t\tPrimeiro VETOR\n");
     printArray(firstArray, sizeOfArray);
     printf("\t\tVetor sem repeticao\n");
-    printArray(finalArray, (sizeOfArray-totalDuplicate));//total de posições do vetor-o total de duplos
+    printArray(finalArray, (sizeOfArray-totalDuplicate));//total de posições do vetor-total de duplicados
     free(firstArray);
     free(finalArray);
 
@@ -36,9 +36,9 @@ int* fillRandomArray(int size, int limit){
 }
 int noDuplicateArray(int **newArray, int *oldArray, int size){
     int i,
-    flag=0,j,total_duplicate=0, new=1; //new é a posição do novo array
+    flag=0,j,total_duplicate=0, position=1; //posição do vetor
     *newArray=(int*) malloc (sizeof(int)*size);//alloco o tamanho total do vetor antigo
-    (*newArray)[0]=oldArray[0];
+    (*newArray)[0]=oldArray[0];//como i começa em 1 a posição 0 do vetor é inicializada aqui
     for(i=1;i<size;i++){
         for(j=0;j<i;j++){
             if(oldArray[i]==oldArray[j]){
@@ -46,8 +46,8 @@ int noDuplicateArray(int **newArray, int *oldArray, int size){
                 break;}             
         }
         if(flag==0){
-             (*newArray)[new]=oldArray[i];
-               new++;            
+             (*newArray)[position]=oldArray[i];
+               position++;            
         }
         else{
             total_duplicate++;
