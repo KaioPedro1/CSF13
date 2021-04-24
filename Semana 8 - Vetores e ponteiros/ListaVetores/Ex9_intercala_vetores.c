@@ -11,11 +11,11 @@ void preencheVetor(int v[],int v2[],int n, int limite);
 void intercalaVetores(int v[], int v2[], int v3[], int n);
 
 int main(){
-    int string[100],string2[100],string3[100], number, limit;
+    int array[100],array2[100],array3[100], number, limit;
     printf("Informe o numero de elementos do vetor e o limite(separados por espaco): ");
     scanf("%d" "%d", &number, &limit);
-    preencheVetor(string,string2,number, limit);
-    intercalaVetores(string, string2, string3, number);
+    preencheVetor(array,array2,number, limit);
+    intercalaVetores(array, array2, array3, number);
 }
 
 void preencheVetor(int v[],int v2[],int n, int limite){

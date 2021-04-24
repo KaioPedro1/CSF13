@@ -8,10 +8,10 @@ Prot´otipo: void preencheVetor(int v[], int n);*/
 void preencheVetor(int v[],int n, int limite);
 
 int main(){
-    int string[100], number, limit;
+    int array[100], number, limit;
     printf("Informe o numero de elementos do vetor e o limite(separados por espaco): ");
     scanf("%d" "%d", &number, &limit);
-    preencheVetor(string, number, limit);
+    preencheVetor(array, number, limit);
 }
 
 void preencheVetor(int v[],int n, int limite){

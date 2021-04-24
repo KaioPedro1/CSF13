@@ -10,13 +10,13 @@ int averagePair(int array[], int n, int *b,int *s);
 
 int main(){
     int array [100];
-    int number, limit, bigger=0,smaler;
+    int number, limit, biggest=0,smaler;
     printf("Informe o numero de elementos do vetor e o limite(separados por espaco): ");
     scanf("%d" "%d", &number, &limit);
     smaler=limit;
     preencheVetor(array, number, limit);
-    averagePair(array, number, &bigger, &smaler);
-    printf("\t\tMaior numero eh: %d\n\t\t\t e menor eh :%d\n", bigger, smaler);
+    averagePair(array, number, &biggest, &smaler);
+    printf("\t\tMaior numero eh: %d\n\t\t\t e menor eh :%d\n", biggest, smaler);
 }
 
 void preencheVetor(int v[],int n, int limite){

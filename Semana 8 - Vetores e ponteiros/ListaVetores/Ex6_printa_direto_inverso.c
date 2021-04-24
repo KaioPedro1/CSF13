@@ -8,12 +8,12 @@ void preencheVetor(int v[],int n, int limite);
 void directOrder(int v[],int n);
 void reverseOrder(int v[],int n);
 int main(){
-    int string[100], number, limit;
+    int array[100], number, limit;
     printf("Informe o numero de elementos do vetor e o limite(separados por espaco): ");
     scanf("%d" "%d", &number, &limit);
-    preencheVetor(string, number, limit);
-    directOrder(string, number);
-    reverseOrder(string, number);
+    preencheVetor(array, number, limit);
+    directOrder(array, number);
+    reverseOrder(array, number);
 }
 
 void preencheVetor(int v[],int n, int limite){

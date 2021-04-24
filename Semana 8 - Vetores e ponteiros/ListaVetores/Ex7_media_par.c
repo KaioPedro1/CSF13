@@ -8,12 +8,12 @@ void preencheVetor(int v[],int n, int limite);
 int averagePair(int array[], int n);
 
 int main(){
-    int string [100];
+    int array [100];
     int number, limit;
     printf("Informe o numero de elementos do vetor e o limite(separados por espaco): ");
     scanf("%d" "%d", &number, &limit);
-    preencheVetor(string, number, limit);
-    averagePair(string, number);
+    preencheVetor(array, number, limit);
+    averagePair(array, number);
 }
 
 void preencheVetor(int v[],int n, int limite){
