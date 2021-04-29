@@ -19,7 +19,7 @@ int matriceSize,itinerarySize,*itinerary, **matrixCost, i;
     scanf("%d", &matriceSize);
     matrixCost=alocaMatriz(matriceSize,matriceSize); 
     fillMatrix(matrixCost, matriceSize, matriceSize);    
-  //  printMatrix(matrixCost,matriceSize,matriceSize); /*deixei os print pra testar
+    printMatrix(matrixCost,matriceSize,matriceSize); 
     do{
     printf("\t\tInforme o total de cidades visitadas: ");   
     scanf("%d", &itinerarySize);

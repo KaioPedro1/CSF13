@@ -21,6 +21,8 @@ int main(){
         multArray = multiplyArray(firstArray,secondArray,(size1*size2), size2, size1);
         printArray(multArray,size1*size2);
         free(multArray);
+        free(firstArray);
+        free(secondArray);
 }
 int * criaVetor(int tam){
     int i, *internal;
