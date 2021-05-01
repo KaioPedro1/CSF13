@@ -34,7 +34,7 @@ int main(){
 void fillRandomRegister(Register *aux){
     
     aux->code=1000+rand()%100000;
-    aux->phone=(char*)malloc(15*(sizeof(char)));//14 é o tamanho da string
+    aux->phone=(char*)malloc(15*(sizeof(char)));//15 é o tamanho da string
     aux->price=(float)rand()/RAND_MAX*1001;//pra criar float aleatorio
 }
 
