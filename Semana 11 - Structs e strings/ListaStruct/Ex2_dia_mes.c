@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define TOTAL_PERSON 5
-#define MAXSTRING 15
+#define TOTAL_PERSON 3
+#define MAXSTRING 50
 typedef struct{
     char name[MAXSTRING]; 
     int day;
