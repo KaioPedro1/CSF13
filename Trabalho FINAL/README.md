@@ -16,6 +16,3 @@ O arquivo jogajogo.c é a onde está a função main.
 Lembrando que o "projeto" só tem compatibilidade com o sistema operacional "Windows".
 
 ///////////////////////////////////////////////////////////////////////////////////////
-
-14/05/2021
-O desenvolvimento desse trabalho foi bem importante para mim, na criação dele eu percebi que é com isso que eu quero trabalhar mesmo, adorei do início ao fim criar algo mais elaborado, no meio da semana a única coisa que pensava era o que implementar de novo ou como melhorar o algoritmo principal.
