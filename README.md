@@ -1,5 +1,5 @@
 # CSF13
-Resolução de exercícios da disciplina "Fundamentos De Programação 1".
+Resolução de exercícios e projeto final da disciplina "Fundamentos De Programação 1".
 
 Primeiro contato com programação.
 
